@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn-primary {
+        @apply bg-primary text-white rounded-[20px] py-2 px-4 w-full transition duration-200 hover:bg-secondary active:bg-secondary disabled:opacity-75 disabled:hover:bg-primary;
+    }
+
+    .ohnohoney {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 0;
+        width: 0;
+        z-index: -1;
+    }
+
+    .line-separator {
+        --primary-color: #085da9;
+        --secondary-color: #42b9b9;
+        --tertiary-color: #fdf28e;
+        background: linear-gradient(90deg, var(--primary-color) 0%, var(--secondary-color) 50%, var(--tertiary-color) 100%);
+    }
+
+    .text {
+        @apply relative text-sm text-gray-800;
+    }
+}
+
+@layer utilities {
+    /* Override Event */
+    [data-event-id] body {
+        @apply bg-gray-800;
+    }
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('./fonts/Mulish-Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('./fonts/Mulish-MediumItalic.ttf');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('./fonts/Mulish-Bold.ttf');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('./fonts/Mulish-BoldItalic.ttf');
+    font-weight: bold;
+    font-style: italic;
+}

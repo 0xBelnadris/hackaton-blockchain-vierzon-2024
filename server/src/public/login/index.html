@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="language" content="English">
+    <title>Hackaton Blockchain Vierzon 2024</title>
+    <link href="./styles/style.css" rel="stylesheet"/>
+</head>
+<body class="bg-gray-100 h-screen flex items-center justify-center">
+<!-- Container principal -->
+<div class="w-full max-w-md bg-white shadow-lg rounded-lg p-6">
+    <!-- Formulaire de connexion -->
+    <div id="loginForm" class="space-y-4">
+        <h2 class="text-2xl font-bold text-center text-gray-700">Connexion</h2>
+        <form onsubmit="event.preventDefault(); login();" class="space-y-4">
+            <div>
+                <input type="email" id="loginEmail" placeholder="Email" required
+                       class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500">
+            </div>
+            <div>
+                <input type="password" id="loginPassword" placeholder="Mot de passe" required
+                       class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500">
+            </div>
+            <div>
+                <button type="submit" class="w-full bg-black text-white py-2 rounded-md hover:bg-gray-600">
+                    Se connecter
+                </button>
+            </div>
+        </form>
+        <button type="button" onclick="showRegister()" class="hover:underline text-sm">
+            Je n'ai pas de compte
+        </button>
+    </div>
+
+    <!-- Formulaire d'inscription -->
+    <div id="registerForm" class="space-y-4 hidden">
+        <h2 class="text-2xl font-bold text-center text-gray-700">Inscription</h2>
+        <form onsubmit="event.preventDefault(); register();" class="space-y-4">
+            <div>
+                <input type="email" id="registerEmail" placeholder="Email" required
+                       class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500">
+            </div>
+            <div>
+                <input type="password" id="registerPassword" placeholder="Mot de passe" required
+                       class="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:border-indigo-500">
+            </div>
+            <div>
+                <button type="submit" class="w-full bg-black text-white py-2 rounded-md hover:bg-gray-600">
+                    Créer un compte
+                </button>
+            </div>
+        </form>
+        <button type="button" onclick="showLogin()" class="hover:underline text-sm">
+            Retour
+        </button>
+    </div>
+</div>
+<script src="login/index.js" type="module"></script>
+</body>
+</html>

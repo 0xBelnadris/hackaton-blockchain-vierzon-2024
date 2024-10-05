@@ -1,0 +1,16 @@
+node_modules
+dist
+.env
+.env.local
+.env.prod
+coverage
+coverage.json
+typechain
+typechain-types
+style.css
+
+# Hardhat files
+cache
+artifacts
+
+.idea
