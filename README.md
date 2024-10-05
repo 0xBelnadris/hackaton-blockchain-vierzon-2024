@@ -37,3 +37,4 @@ Run the following command
 npx hardhat test
 ```
 
+NodeJS 18/20

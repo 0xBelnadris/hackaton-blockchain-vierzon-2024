@@ -9,7 +9,7 @@ import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
 import "@openzeppelin/contracts/utils/Counters.sol";
 import "./interface/IExample.sol";
 
-/// @custom:security-contact security@kreypt.art
+/// @custom:security-contact security@hackaton-vierzon.fr
 contract Example is ERC721URIStorage, ERC721Burnable, ERC2981, AccessControl, ReentrancyGuard, IExample {
     bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
     address public owner;

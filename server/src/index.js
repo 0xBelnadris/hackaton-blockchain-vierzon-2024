@@ -13,12 +13,10 @@ const publicPath =  path.join(__dirname, 'public');
 app.use(express.static(publicPath));
 
 app.get('/', (req, res) => {
-    // Servir une page HTML (par exemple, my-mooguis.html)
     res.sendFile(path.join(__dirname, 'public/login/index.html'));
 });
 
 app.get('/my-mooguis', authenticateToken, (req, res) => {
-    // Servir une page HTML (par exemple, my-mooguis.html)
     res.sendFile(path.join(__dirname, 'public/my-mooguis/index.html'));
 });
 
