@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: UNLICENSED
-pragma solidity ^0.8.16;
+pragma solidity ^0.8.27;
 
 interface IExample {
     function safeMint(string calldata tokenUri, address to) external returns (uint256);
