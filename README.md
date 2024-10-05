@@ -21,9 +21,9 @@ npm run build
 
 1. First deploy the NFT contract
 `npx hardhat compile`
-`npx hardhat run scripts/0_deploy-nft-contract.js --network <amoy|polygon>`
+`npx hardhat run scripts/0_deploy-nft-contract.js --network <fuji|mainnet>`
 3. Verify contrat (not mandatory)
-`npx hardhat verify  --network <amoy> <CONTRACT> OWNER_ADDRESS MINTER_ADDRESS`
+`npx hardhat verify  --network <fuji|mainnet> <CONTRACT> OWNER_ADDRESS MINTER_ADDRESS`
 4. If you need to change a token metadata => setTokenURI (with contract Owner wallet)
 
 ### Deployed contract addresses
