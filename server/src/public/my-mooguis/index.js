@@ -25,6 +25,3 @@ async function getMyMooguis() {
 document.addEventListener('DOMContentLoaded', (event) => {
     getMyMooguis().then();
 });
-
-
-window.getMyMooguis = getMyMooguis;

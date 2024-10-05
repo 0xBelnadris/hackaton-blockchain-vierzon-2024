@@ -20,6 +20,10 @@ app.get('/my-mooguis', authenticateToken, (req, res) => {
     res.sendFile(path.join(__dirname, 'public/my-mooguis/index.html'));
 });
 
+app.get('/new-mooguis', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public/new-mooguis/index.html'));
+});
+
 registerApi(app);
 
 app.all('*', function(req, res) {
