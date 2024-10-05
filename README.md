@@ -16,7 +16,7 @@ npm run serve
 ```bash
 npm run build
 ```
-
+ 
 # How to deploy smart contracts
 
 1. First deploy the NFT contract
