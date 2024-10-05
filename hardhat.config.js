@@ -79,4 +79,9 @@ module.exports = {
             accounts: [process.env.DEPLOYER_PRIVATE_KEY],
         },
     },
+    etherscan: {
+        apiKey: {
+            avalancheFujiTestnet: "snowtrace",
+        },
+    }
 };
