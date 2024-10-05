@@ -9,6 +9,7 @@ typechain
 typechain-types
 style.css
 comptes.txt
+ngrok.yml
 
 # Hardhat files
 cache

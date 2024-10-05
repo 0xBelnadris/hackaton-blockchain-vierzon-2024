@@ -11,7 +11,7 @@ npm run serve
 ```
 7. Set Token in ngrok.yml to tunnel the server
 ```bash
-ngrok http 80 --config ngrok.yml
+ngrok http 8080 --config ngrok.yml
 ```
 
 ## Build before deployment
