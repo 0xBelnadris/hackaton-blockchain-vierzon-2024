@@ -1,10 +1,11 @@
 # Run the frontend (+ express server)
 1. Clone the repo
 2. Run `npm install`
-3. Go to server folder
-4. Run `npm install`
-5. Copy/paste the `.env.examples` file and rename it to `.env` and fill in the variables
-6. Start the dev server
+3. Copy/paste the `.env.examples` file and rename it to `.env` and fill in the variables
+4. Go to server folder
+5. Run `npm install`
+6. Copy/paste the `.env.examples` file and rename it to `.env` and fill in the variables
+7. Start the dev server
 ```bash
 npm run tailwind:css -- --watch
 npm run serve
