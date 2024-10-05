@@ -8,6 +8,7 @@ coverage.json
 typechain
 typechain-types
 style.css
+comptes.txt
 
 # Hardhat files
 cache
