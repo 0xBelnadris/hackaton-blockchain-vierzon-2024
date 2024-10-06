@@ -1,16 +1,13 @@
-// Fonction pour afficher la mire de connexion
 function showLogin() {
     document.getElementById('loginForm').style.display = 'block';
     document.getElementById('registerForm').style.display = 'none';
 }
 
-// Fonction pour afficher la mire d'inscription
 function showRegister() {
     document.getElementById('loginForm').style.display = 'none';
     document.getElementById('registerForm').style.display = 'block';
 }
 
-// Appel à l'API d'inscription
 async function register() {
     const email = document.getElementById('registerEmail').value;
     const password = document.getElementById('registerPassword').value;
@@ -31,7 +28,6 @@ async function register() {
     }
 }
 
-// Appel à l'API de connexion
 async function login() {
     const email = document.getElementById('loginEmail').value;
     const password = document.getElementById('loginPassword').value;

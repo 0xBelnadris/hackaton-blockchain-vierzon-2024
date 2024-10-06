@@ -45,8 +45,7 @@ module.exports = {
       dark: colors['gray-900'],
     },
     fontFamily: {
-      mulish: ['Mulish', 'ui-sans-serif', 'Arial', 'sans-serif'],
-      kreypt: ['Kreypt', 'ui-sans-serif', 'Arial', 'sans-serif'],
+      mulish: ['Mulish', 'ui-sans-serif', 'Arial', 'sans-serif']
     },
     extend: {},
   },

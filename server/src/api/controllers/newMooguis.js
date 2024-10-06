@@ -18,9 +18,8 @@ const newMooguis = async (req, res) => {
             const provider = new ethers.JsonRpcProvider("https://api.avax-test.network/ext/bc/C/rpc");
             const wallet = new ethers.Wallet(process.env.WALLET_SECRET, provider);
             const contract = new ethers.Contract(process.env.NFT_CONTRACT_ADDRESS, abi, wallet);
-            const tx = await contract.safeMint('ipfs://bafybeibulyuw4qmptj3z4kujjh2w5677xx3eizwydz2yao3nnrt7fhsnlq/1000.json', user.walletAddress);
+            const tx = await contract.safeMint('ipfs://bafybeihpy6mthwq7zmyuvuliwelr37rolykwmrgzvllzisykg3qstw4koe', user.walletAddress);
 
-            // Attendre que la transaction soit confirmée
             const receipt = await tx.wait();
 
             res.status(200).send({message: 'New Mooguis minted', data : receipt});

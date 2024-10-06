@@ -10,7 +10,7 @@
 npm run tailwind:css -- --watch
 npm run serve
 ```
-7. Set Token in ngrok.yml to tunnel the server
+7. Set Token in ngrok.yml to tunnel the localhost server (mandatory to redirect to the website after scanning the NFC chip)
 ```bash
 ngrok http 8080 --config ngrok.yml
 ```
@@ -33,7 +33,7 @@ npm run build
 
 ### Deployed contract addresses
 
-AMOY contract address : 
+FUJI contract address : https://testnet.snowtrace.io/token/0x8De08A2CE86F838416c509499802c906F492D030
 
 ## How to test
 
@@ -41,5 +41,3 @@ Run the following command
 ```bash
 npx hardhat test
 ```
-
-NodeJS 18/20

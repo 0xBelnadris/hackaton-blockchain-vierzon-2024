@@ -1,0 +1,44 @@
+
+{
+  "name": "Mooguis #1",
+  "description": "Le Moog Ruben représente les Pays-Bas",
+  "image": "ipfs://bafybeic63qwsshpaeaalnkatv7j6wfj6k524v33vyxdw6gvu6dktj7cbmu",
+  "attributes": [
+    {
+      "trait_type": "Couleur 1",
+      "value": "Violet"
+    },
+    {
+      "trait_type": "Couleur 2",
+      "value": "Turquoise"
+    },
+    {
+      "trait_type": "Face 1 - Force",
+      "value": "8"
+    },
+    {
+      "trait_type": "Face 2 - Force",
+      "value": "3"
+    },
+    {
+      "trait_type": "Face 3 - Force",
+      "value": "5"
+    },
+    {
+      "trait_type": "Face 4 - Force",
+      "value": "8"
+    },
+    {
+      "trait_type": "Face 5 - Force",
+      "value": "5"
+    },
+    {
+      "trait_type": "Face Bouclier - Pays",
+      "value": "Pays Bas"
+    },
+    {
+      "trait_type": "Continent",
+      "value": "Europe"
+    }
+  ]
+}

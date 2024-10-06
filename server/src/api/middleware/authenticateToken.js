@@ -3,7 +3,6 @@ const jwt  = require('jsonwebtoken');
 const secret = process.env.JWT_SECRET;
 
 function authenticateToken(req, res, next) {
-    // Récupérer le token depuis les en-têtes de la requête
     const authHeader = req.headers['authorization'];
 
     if (!authHeader) {

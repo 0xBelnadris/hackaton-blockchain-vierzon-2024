@@ -3,7 +3,7 @@ const axios = require('axios');
 const dbManager = require('../adapters/dbManager');
 
 /**
- * User MooguisAPI.
+ * User Mooguis API.
  *
  * @param req {Request<LoginModel>}
  * @param res {Response}
